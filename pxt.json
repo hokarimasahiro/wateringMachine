@@ -1,0 +1,32 @@
+{
+    "name": "自動かん水機",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#7d5f615ff814a5695558fc6d255ee50759d251b5",
+        "pxt-ds3231": "github:hokarimasahiro/pxt-ds3231#d338145403f7cf880625ffdde8712e342126810a"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v5.0.6",
+        "tag": "v5.0.6",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/a7b22b445e8aebdca9d19b7fb2250d11b06e8009",
+        "target": "5.0.12",
+        "pxt": "8.0.3",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
